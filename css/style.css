@@ -1,0 +1,109 @@
+#hr1 {
+    position: absolute;
+    top: 60px;
+    width: 1500px;
+    border: 1px solid rgb(211, 209, 209);
+}
+
+#hr2 {
+    position: absolute;
+    top: 150px;
+    width: 1500px;
+    border: 1px solid rgb(211, 209, 209);
+}
+
+#vm {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#add, #sub {
+    position: relative;
+    width: 34px;
+    height: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#num {
+    position: relative;
+    color: rgb(226, 214, 214);
+    background: rgb(119, 116, 116);
+    font-size: 13px;
+    text-align: center;
+    border: 1px solid  rgb(119, 116, 116);
+    width: 20px;
+    padding: 4px;
+    display:-moz-inline-box; 
+    display:inline-block;
+    line-height: 20px;
+    top: -1px;
+}
+
+#vm1 {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    width: 520px;
+    height: 280px;
+}
+
+#bannerright {
+    position: absolute;
+    top: 115px;
+    left: 488px;
+    height: 50px;
+    width: 32px;
+    border: 0px;
+    color: rgb(168, 167, 167);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    opacity: .85;
+}
+
+ #bannerleft {
+    position: absolute;
+    top: 115px;
+    left: 0;
+    height: 50px;
+    width: 32px;
+    border: 0px;
+    color: rgb(168, 167, 167);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    opacity: .85;
+}
+
+.banner {
+    opacity: 0.9 !important;
+    background: rgb(247, 7, 7);
+    color: rgb(255, 255, 251)  !important
+}
+
+
+#sty1 {
+    position: absolute;
+    display: block;
+    top: 200px;
+    left: 550px;
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    color: rgb(250, 218, 34);
+    background: rgb(42, 219, 18);
+    text-align: center;
+    line-height: 100px;
+}
+
+.sty2 {
+    display: none !important
+}
+
+#inp2 {
+    position: absolute;
+    top: 320px;
+    left: 625px;
+}

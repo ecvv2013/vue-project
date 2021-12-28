@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vue初阶</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/vue.js"></script>
+    <script src="js/myvue.js"></script>
+</head>
+
+<body>
+    <div id="vm">
+        <!-- v-on/@案例 -->
+        <button id="sub" @click="sub">-</button><label id="num">{{ num }}</label><button id="add"
+            @click="add">+</button>
+        <hr id="hr1">
+        <br>
+        <br>
+        <br>
+        <!-- v-text、v-html案例 -->
+        <p v-text="persons.name">asfa</p>
+        <span v-text="persons.age + ' ' +persons.sex + ','"></span>
+        <span v-html="persons.person"></span>
+        <span>{{ persons.name }}, 是我的名字</span>
+        <br>
+        <hr id="hr2">
+
+        <!-- banner图 -->
+        <div id="vm1">
+            <button id="bannerleft" :class="styles.class2" @click="prev" v-show="index > 0" @mouseover="toggle2"
+                @mouseout="toggle3" title="上一张">《 </button>
+            <img :src="bannerImgs[index]" alt="" id="img1">
+            <button id="bannerright" :class="styles.class2" @click="next" v-show="index < bannerImgs.length - 1"
+                @mouseover="toggle2" @mouseout="toggle3" title="下一张"> 》</button>
+        </div>
+
+        <!-- v-bind案例 -->
+        <div id="sty1" :class="styles.class1">点击下方按钮隐藏</div>
+        <input type="submit" name="" id="inp2" :value="ShowAndDiv" @click="toggle1">
+
+    </div>
+</body>
+
+</html>
